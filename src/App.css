@@ -1,8 +1,7 @@
 body {
-  background: darkslategrey;
-  color: whitesmoke;
-  width: 100%;
-  margin: 0;
+  background: #ECE6D5;
+  color: #302F4D;
+  margin: 0 200px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -11,22 +10,20 @@ body {
 
 .page-content {
   flex-grow: 1;
-  min-height: calc(100vh - 60px)
 }
 
 /* HEADER STYLING */
 
 #header {
-  background-color: orange;
+  background-color: #CEB5A7;
   width: 100%;
-  height: 30px;
+  margin: 0;
 }
 
 /* FOOTER STYLING */
 #footer {
-  background-color: yellow;
+  background-color: #CEB5A7;
   width: 100%;
-  height: 30px;
 }
 
 h1 {
