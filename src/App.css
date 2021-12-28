@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   background: #ECE6D5;
   color: #302F4D;
@@ -9,6 +11,7 @@ body {
 }
 
 .page-content {
+  margin: 10px;
   flex-grow: 1;
 }
 
@@ -27,5 +30,18 @@ body {
 }
 
 h1 {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 20%;
+  border: #302F4D 1px solid;
+  border-radius: 8px;
+  padding: 5px;
 }
