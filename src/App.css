@@ -46,8 +46,18 @@ h1 {
 }
 
 .project-card {
-  border: #302F4D 1px solid;
-  width: 300px;
-  border-radius: 8px;
-  padding: 5px;
+  width: 280px;
+  padding: 0 10px;
+  background: #CEB5A7;
+  filter: drop-shadow(5px 5px 0 black);
+  text-align: justify
+}
+
+.project-description {
+  margin-bottom: 40px;
+}
+
+.deploy-link {
+  position: fixed;
+  bottom: 10px
 }
