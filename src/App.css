@@ -2,9 +2,13 @@
 
 body {
   background: #ECE6D5;
+}
+
+.App {
+  background: #ECE6D5;
   color: #302F4D;
   margin: 20px auto;
-  max-width: 700px;
+  max-width: 600px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -13,8 +17,9 @@ body {
 }
 
 .page-content {
-  margin: 10px;
+  margin: 0;
   flex-grow: 1;
+  width: 100%;
 }
 
 .shadow {
@@ -25,7 +30,7 @@ body {
 
 #header {
   background-color: #CEB5A7;
-  width: 100%;
+  /* width: 100%; */
   margin: 0;
   padding: 10px;
 }
@@ -33,7 +38,7 @@ body {
 /* FOOTER STYLING */
 #footer {
   background-color: #CEB5A7;
-  width: 100%;
+  /* width: 100%; */
   padding: 10px;
 }
 
@@ -44,16 +49,16 @@ h1 {
 
 #projects {
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .project-card {
-  width: 280px;
+  width: 250px;
   padding: 0 10px;
   background: #CEB5A7;
-  text-align: justify
+  text-align: left
 }
 
 .project-description {
