@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
     return(
-        <div id='header'>
+        <div id='header' className="shadow">
             <h1>boppdev.io</h1>
             <nav>
                 <ul className='nav_ul'>
