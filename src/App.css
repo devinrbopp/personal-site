@@ -23,7 +23,31 @@ body {
 }
 
 .shadow {
-  filter: drop-shadow(5px 5px 0 black);
+  filter: drop-shadow(5px 5px 0 #302F4D);
+}
+
+.tech-stack {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-stack-card {
+  background-color: #CEB5A7;
+  margin: 10px 0;
+  width: 80%;
+}
+
+#languages {
+  align-self: flex-start;
+}
+
+#frameworks-databases {
+  align-self: center;
+}
+
+#other-skills {
+  align-self: flex-end;
 }
 
 /* HEADER STYLING */
