@@ -7,10 +7,10 @@ export default function Header() {
         <div id='header' className="shadow">
             <h1>boppdev.io</h1>
             <nav>
-                <ul className='nav_ul'>
+                {/* <ul className='nav_ul'>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About Devin</Link></li>
-                </ul>
+                </ul> */}
             </nav>
         </div>
     )
