@@ -3,7 +3,7 @@ import Project from "./Project"
 export default function Projects() {
     return(
         <>
-            <h2>Check out my personal projects:</h2>
+            <h2>check out my projects:</h2>
             <div id='projects'>
                 <Project
                     title="it's getting colder"
