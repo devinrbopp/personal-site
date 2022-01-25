@@ -67,7 +67,7 @@ body {
   padding: 10px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Mono', monospace;
   margin: 10px 0;
 }
@@ -83,14 +83,17 @@ h1, h2, h3 {
   width: 270px;
   padding: 0 10px;
   background: #CEB5A7;
-  text-align: left
+  text-align: left;
 }
 
 .project-description {
   margin-bottom: 40px;
 }
 
-.deploy-link {
+.project-links {
   position: fixed;
-  bottom: 10px
+  bottom: 5px;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
 }
