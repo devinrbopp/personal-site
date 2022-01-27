@@ -9,7 +9,7 @@ body {
   background: #ECE6D5;
   color: #302F4D;
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 800px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-card {
-  width: 270px;
+  width: 370px;
   padding: 0 10px;
   background: #CEB5A7;
   text-align: left;
